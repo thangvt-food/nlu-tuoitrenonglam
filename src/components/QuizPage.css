@@ -1,0 +1,119 @@
+
+.quiz-exam-container {
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 80px; /* Space for the fixed mobile footer */
+  background-color: #f8f9fa; /* Light background */
+}
+
+.main-content {
+  padding: 15px;
+}
+
+.timer {
+  font-weight: bold;
+}
+
+/* Horizontal Question List */
+.horizontal-question-list-container {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.horizontal-question-list-container .btn {
+  min-width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.horizontal-question-list-container .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Question Card */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15) !important;
+}
+
+.form-check {
+  background-color: #f1f3f5;
+  border-color: #e9ecef !important;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.form-check:hover {
+  background-color: #e2e6ea;
+  transform: translateX(5px);
+}
+
+.form-check-input:checked + .form-check-label {
+  font-weight: bold;
+  color: #007bff; /* Primary color */
+}
+
+/* Mobile Quiz Footer */
+.mobile-quiz-footer {
+  z-index: 1030; /* Ensure it's above other content */
+  border-top: 1px solid #e9ecef;
+}
+
+.mobile-quiz-footer .btn {
+  font-size: 0.9rem;
+  padding: 10px 15px;
+}
+
+/* Animations (from animate.css, assuming it's linked or custom) */
+.animate__animated.animate__flash.animate__infinite {
+  animation-duration: 2s;
+}
+
+.animate__animated.animate__pulse.animate__infinite {
+  animation-duration: 1.5s;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .quiz-exam-container {
+    padding-bottom: 20px; /* Less padding on larger screens */
+  }
+
+  .mobile-quiz-footer {
+    display: none !important; /* Hide on larger screens */
+  }
+
+  /* For larger screens, maybe a fixed sidebar for question navigation */
+  .desktop-question-sidebar {
+    position: sticky;
+    top: 20px;
+    height: calc(100vh - 40px);
+    overflow-y: auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .horizontal-question-list-container {
+    margin-left: -15px;
+    margin-right: -15px;
+    border-radius: 0;
+  }
+}

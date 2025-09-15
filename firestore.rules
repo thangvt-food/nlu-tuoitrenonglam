@@ -1,0 +1,38 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Allow authenticated users to read and write their own quiz results
+    match /quizResults/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Allow authenticated users to read and write their own user profile
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Rules for the 'admins' collection
+    // Allow authenticated users to read their own admin status
+    match /admins/{adminId} {
+      allow read: if request.auth != null && request.auth.uid == adminId;
+      // Only allow server-side (Admin SDK) to write to this collection
+      allow write: if false;
+    }
+
+    // Admin access to read all users and quiz results
+    // Allow read access to the entire 'users' collection if the user is an admin
+    match /users/{document=**} {
+      allow read: if request.auth != null && exists(/databases/$(database)/documents/admins/$(request.auth.uid));
+    }
+    // Allow read access to the entire 'quizResults' collection if the user is an admin
+    match /quizResults/{document=**} {
+      allow read: if request.auth != null && exists(/databases/$(database)/documents/admins/$(request.auth.uid));
+    }
+
+    // Deny access by default for any other collections/documents
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

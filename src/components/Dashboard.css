@@ -1,0 +1,20 @@
+/* src/components/Dashboard.css */
+
+.dashboard-container {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../assets/asean_banner-1667981003600.webp'); /* Faded white overlay */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  background-attachment: fixed; /* Optional: makes background fixed during scroll */
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white card */
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,33 @@
+/* src/components/AdminPage.css */
+
+.admin-page-container {
+  background-color: #f0f2f5; /* Light background */
+  min-height: 100vh;
+}
+
+.card-header {
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+}
+
+.table thead th {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+}

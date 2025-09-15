@@ -1,0 +1,364 @@
+{
+    "questions": [
+      {
+        "id": "q1",
+        "question": "ASEAN được thành lập vào năm nào?",
+        "options": {
+          "A": "1965",
+          "B": "1967",
+          "C": "1970",
+          "D": "1972"
+        },
+        "answer": "B",
+        "category": "I. Lịch sử hình thành và phát triển ASEAN"
+      },
+      {
+        "id": "q2",
+        "question": "ASEAN được thành lập tại thành phố nào?",
+        "options": {
+          "A": "Hà Nội",
+          "B": "Jakarta",
+          "C": "Bangkok",
+          "D": "Manila"
+        },
+        "answer": "C",
+        "category": "I. Lịch sử hình thành và phát triển ASEAN"
+      },
+      {
+        "id": "q3",
+        "question": "Văn kiện nào đánh dấu sự thành lập ASEAN?",
+        "options": {
+          "A": "Hiệp ước Bangkok",
+          "B": "Hiệp định Bali",
+          "C": "Tuyên bố Hà Nội",
+          "D": "Hiệp ước Manila"
+        },
+        "answer": "A",
+        "category": "I. Lịch sử hình thành và phát triển ASEAN"
+      },
+      {
+        "id": "q4",
+        "question": "Số lượng quốc gia thành viên ban đầu của ASEAN là:",
+        "options": {
+          "A": "3",
+          "B": "4",
+          "C": "5",
+          "D": "6"
+        },
+        "answer": "C",
+        "category": "I. Lịch sử hình thành và phát triển ASEAN"
+      },
+      {
+        "id": "q5",
+        "question": "Quốc gia gia nhập ASEAN cuối cùng là:",
+        "options": {
+          "A": "Lào",
+          "B": "Campuchia",
+          "C": "Myanmar",
+          "D": "Brunei"
+        },
+        "answer": "B",
+        "category": "I. Lịch sử hình thành và phát triển ASEAN"
+      },
+      {
+        "id": "q6",
+        "question": "Hiệp ước thân thiện và hợp tác ở Đông Nam Á (TAC) được ký kết năm nào?",
+        "options": {
+          "A": "1972",
+          "B": "1976",
+          "C": "1980",
+          "D": "1985"
+        },
+        "answer": "B",
+        "category": "I. Lịch sử hình thành và phát triển ASEAN"
+      },
+      {
+        "id": "q7",
+        "question": "Hiến chương ASEAN có hiệu lực vào năm nào?",
+        "options": {
+          "A": "2006",
+          "B": "2007",
+          "C": "2008",
+          "D": "2009"
+        },
+        "answer": "C",
+        "category": "I. Lịch sử hình thành và phát triển ASEAN"
+      },
+      {
+        "id": "q8",
+        "question": "Cộng đồng ASEAN chính thức được thành lập vào ngày nào?",
+        "options": {
+          "A": "31/12/2015",
+          "B": "01/01/2015",
+          "C": "31/12/2016",
+          "D": "01/01/2016"
+        },
+        "answer": "A",
+        "category": "I. Lịch sử hình thành và phát triển ASEAN"
+      },
+      {
+        "id": "q9",
+        "question": "Trụ sở chính của ASEAN đặt tại đâu?",
+        "options": {
+          "A": "Kuala Lumpur",
+          "B": "Jakarta",
+          "C": "Singapore",
+          "D": "Bangkok"
+        },
+        "answer": "B",
+        "category": "II. Kinh tế, chính trị, địa lý các quốc gia thành viên"
+      },
+      {
+        "id": "q10",
+        "question": "Khẩu hiệu chính thức của ASEAN là:",
+        "options": {
+          "A": "Một Tầm nhìn, Một Bản sắc, Một Cộng đồng",
+          "B": "Hòa bình, Ổn định, Phát triển",
+          "C": "Đoàn kết để phát triển",
+          "D": "Cộng đồng gắn kết và năng động"
+        },
+        "answer": "A",
+        "category": "II. Kinh tế, chính trị, địa lý các quốc gia thành viên"
+      },
+      {
+        "id": "q11",
+        "question": "Biểu tượng ASEAN có hình ảnh chính là:",
+        "options": {
+          "A": "Bó lúa",
+          "B": "Bánh xe",
+          "C": "Cây tre",
+          "D": "Ngọn đuốc"
+        },
+        "answer": "A",
+        "category": "II. Kinh tế, chính trị, địa lý các quốc gia thành viên"
+      },
+      {
+        "id": "q12",
+        "question": "Quốc gia có diện tích lớn nhất trong ASEAN:",
+        "options": {
+          "A": "Việt Nam",
+          "B": "Indonesia",
+          "C": "Thái Lan",
+          "D": "Myanmar"
+        },
+        "answer": "B",
+        "category": "II. Kinh tế, chính trị, địa lý các quốc gia thành viên"
+      },
+      {
+        "id": "q13",
+        "question": "Quốc gia có dân số đông nhất ASEAN:",
+        "options": {
+          "A": "Việt Nam",
+          "B": "Philippines",
+          "C": "Indonesia",
+          "D": "Thái Lan"
+        },
+        "answer": "C",
+        "category": "II. Kinh tế, chính trị, địa lý các quốc gia thành viên"
+      },
+      {
+        "id": "q14",
+        "question": "Quốc gia có GDP bình quân đầu người cao nhất ASEAN:",
+        "options": {
+          "A": "Singapore",
+          "B": "Brunei",
+          "C": "Malaysia",
+          "D": "Thái Lan"
+        },
+        "answer": "A",
+        "category": "II. Kinh tế, chính trị, địa lý các quốc gia thành viên"
+      },
+      {
+        "id": "q15",
+        "question": "Quốc gia nào trong ASEAN không giáp biển?",
+        "options": {
+          "A": "Lào",
+          "B": "Campuchia",
+          "C": "Myanmar",
+          "D": "Việt Nam"
+        },
+        "answer": "A",
+        "category": "II. Kinh tế, chính trị, địa lý các quốc gia thành viên"
+      },
+      {
+        "id": "q16",
+        "question": "Mục tiêu ban đầu của ASEAN là gì?",
+        "options": {
+          "A": "Xây dựng cộng đồng văn hóa",
+          "B": "Tăng cường hợp tác chính trị, kinh tế, xã hội",
+          "C": "Hình thành liên minh quân sự",
+          "D": "Thống nhất tiền tệ"
+        },
+        "answer": "B",
+        "category": "III. Các sự kiện, mốc son quan trọng"
+      },
+      {
+        "id": "q17",
+        "question": "Cộng đồng ASEAN được xây dựng trên mấy trụ cột?",
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "5"
+        },
+        "answer": "B",
+        "category": "III. Các sự kiện, mốc son quan trọng"
+      },
+      {
+        "id": "q18",
+        "question": "Trụ cột nào sau đây không thuộc Cộng đồng ASEAN?",
+        "options": {
+          "A": "Chính trị - An ninh",
+          "B": "Văn hóa - Xã hội",
+          "C": "Kinh tế",
+          "D": "Quốc phòng - Quân sự"
+        },
+        "answer": "D",
+        "category": "III. Các sự kiện, mốc son quan trọng"
+      },
+      {
+        "id": "q19",
+        "question": "Trong kinh tế, ASEAN nổi bật với việc thành lập:",
+        "options": {
+          "A": "AFTA",
+          "B": "Ngân hàng ASEAN",
+          "C": "Thị trường chứng khoán ASEAN",
+          "D": "Quỹ tiền tệ ASEAN"
+        },
+        "answer": "A",
+        "category": "III. Các sự kiện, mốc son quan trọng"
+      },
+      {
+        "id": "q20",
+        "question": "Hiệp định Thương mại hàng hóa ASEAN (ATIGA) có mục tiêu chính:",
+        "options": {
+          "A": "Lưu chuyển tự do hàng hóa",
+          "B": "Tăng viện trợ quốc tế",
+          "C": "Giảm đầu tư công",
+          "D": "Hình thành liên minh tiền tệ"
+        },
+        "answer": "A",
+        "category": "III. Các sự kiện, mốc son quan trọng"
+      },
+      {
+        "id": "q21",
+        "question": "Sự kiện đánh dấu bước khởi sắc của ASEAN là:",
+        "options": {
+          "A": "Mười nước cùng đứng trong một tổ chức thống nhất (tháng 4-1999) .",
+          "B": "Tuyên bố Băng Cốc (tháng 8-1967).",
+          "C": "Hiệp định Pa-ri về Cam-pu-chia (tháng 10-1991)",
+          "D": "Hiệp ước Bali (tháng 2-1976)."
+        },
+        "answer": "D",
+        "category": "III. Các sự kiện, mốc son quan trọng"
+      },
+      {
+        "id": "q22",
+        "question": "Lễ kỷ niệm 50 năm thành lập ASEAN tổ chức năm nào?",
+        "options": {
+          "A": "2015",
+          "B": "2016",
+          "C": "2017",
+          "D": "2018"
+        },
+        "answer": "C",
+        "category": "III. Các sự kiện, mốc son quan trọng"
+      },
+      {
+        "id": "q23",
+        "question": "Diễn đàn đối thoại thường niên cấp cao nhất của ASEAN là:",
+        "options": {
+          "A": "Hội nghị Bộ trưởng Ngoại giao ASEAN",
+          "B": "Hội nghị Thượng đỉnh ASEAN",
+          "C": "Diễn đàn Kinh tế ASEAN",
+          "D": "Hội nghị Quốc phòng ASEAN"
+        },
+        "answer": "B",
+        "category": "III. Các sự kiện, mốc son quan trọng"
+      },
+      {
+        "id": "q24",
+        "question": "Việt Nam chính thức gia nhập ASEAN vào năm nào?",
+        "options": {
+          "A": "1993",
+          "B": "1995",
+          "C": "1997",
+          "D": "1999"
+        },
+        "answer": "B",
+        "category": "IV. Vai trò và đóng góp của Việt Nam trong ASEAN"
+      },
+      {
+        "id": "q25",
+        "question": "Việt Nam đã giữ vai trò Chủ tịch ASEAN bao nhiêu lần?",
+        "options": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4"
+        },
+        "answer": "B",
+        "category": "IV. Vai trò và đóng góp của Việt Nam trong ASEAN"
+      },
+      {
+        "id": "q26",
+        "question": "Năm nào Việt Nam đảm nhiệm Chủ tịch ASEAN lần đầu tiên?",
+        "options": {
+          "A": "1998",
+          "B": "2000",
+          "C": "2002",
+          "D": "2005"
+        },
+        "answer": "C",
+        "category": "IV. Vai trò và đóng góp của Việt Nam trong ASEAN"
+      },
+      {
+        "id": "q27",
+        "question": "Hiện nay ASEAN có bao nhiêu quốc gia thành viên?",
+        "options": {
+          "A": "9",
+          "B": "10",
+          "C": "11",
+          "D": "12"
+        },
+        "answer": "C",
+        "category": "IV. Vai trò và đóng góp của Việt Nam trong ASEAN"
+      },
+      {
+        "id": "q28",
+        "question": "Việt Nam có vai trò quan trọng trong ASEAN vì:",
+        "options": {
+          "A": "Vị trí địa lý chiến lược, kết nối lục địa và biển",
+          "B": "Quốc gia có dân số ít, trung lập",
+          "C": "Quốc gia giàu dầu mỏ",
+          "D": "Quốc gia nhỏ, ít ảnh hưởng"
+        },
+        "answer": "A",
+        "category": "IV. Vai trò và đóng góp của Việt Nam trong ASEAN"
+      },
+      {
+        "id": "q29",
+        "question": "Tinh thần đoàn kết ASEAN thường thể hiện qua phương châm:",
+        "options": {
+          "A": "Tôn trọng",
+          "B": "Đa số",
+          "C": "Phân bổ quyền lực",
+          "D": "Lãnh đạo luân phiên"
+        },
+        "answer": "A",
+        "category": "V. Tinh thần đoàn kết, hợp tác và hội nhập quốc tế"
+      },
+      {
+        "id": "q30",
+        "question": "Mục tiêu chính của tinh thần hợp tác và hội nhập ASEAN là:",
+        "options": {
+          "A": "Tăng cường sức mạnh quân sự",
+          "B": "Giữ vững hòa bình, ổn định, phát triển bền vững",
+          "C": "Độc lập về kinh tế, không cần quốc tế",
+          "D": "Đóng cửa với các nước ngoài khu vực"
+        },
+        "answer": "B",
+        "category": "V. Tinh thần đoàn kết, hợp tác và hội nhập quốc tế"
+      }
+    ]
+  }
