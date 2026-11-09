@@ -1,0 +1,24 @@
+slug: nlu-tuoitrenonglam
+name: NLU Tuổi trẻ Nông Lâm
+tagline: Trang thông tin tuổi trẻ ĐH Nông Lâm
+url: https://github.com/thangvt-food/nlu-tuoitrenonglam
+status: paused
+visibility: private
+description: Web React + Firebase quản lý tin tức, dữ liệu và hoạt động của tuổi trẻ NLU.
+tags:
+  - tin-tức
+  - đại-học
+  - cộng-đồng
+category: social
+tech:
+  - react
+  - vite
+  - firebase
+hosting: firebase-hosting
+updated: '2025-09-15'
+version: 0.0.0
+icon: 🌱
+auth: login
+links:
+  repo: https://github.com/thangvt-food/nlu-tuoitrenonglam
+notes: Repo public, có firebase.json; chưa có URL deploy.
